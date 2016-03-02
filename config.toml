@@ -1,0 +1,4 @@
+baseurl = "http://solidmecha.com/"
+languageCode = "en-us"
+title = "New Unity Prototype"
+theme = "detox"
