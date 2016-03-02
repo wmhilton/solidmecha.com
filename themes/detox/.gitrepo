@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/allnightgrocery/hugo-theme-blueberry-detox
+	branch = master
+	commit = b56f0e23827959e53f58f3819061a15da00df204
+	parent = 05d517e003140034ed5f3309a395ed8e8d734fbe
+	cmdver = 0.3.0
