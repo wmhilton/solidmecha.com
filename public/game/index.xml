@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Games on New Unity Prototype</title>
+    <link>http://solidmecha.com/game/</link>
+    <description>Recent content in Games on New Unity Prototype</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 29 Feb 2016 22:21:05 -0500</lastBuildDate>
+    <atom:link href="http://solidmecha.com/game/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NUP</title>
+      <link>http://solidmecha.com/game/0/</link>
+      <pubDate>Mon, 29 Feb 2016 22:21:05 -0500</pubDate>
+      
+      <guid>http://solidmecha.com/game/0/</guid>
+      <description>&lt;p&gt;Here be my &lt;strong&gt;description&lt;/strong&gt; of the game, and or funny remarks, and or appologies for quirky unfinished things.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
