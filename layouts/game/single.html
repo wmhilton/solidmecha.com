@@ -4,45 +4,38 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | {{ .Title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
     <link rel="shortcut icon" href="/css/favicon.ico" />
     <script src="/css/UnityProgress.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    {{ partial "head.html" . }}
   </head>
   <body class="template">
-    <nav class="navbar navbar-default">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <a class="navbar-brand" href="#">solidmecha games</a>
-        </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav">
-            <li><a href="/game/0"><i class="glyphicon glyphicon-fast-backward"></i> Oldest</a></li>
-            <li><a id="prev"><i class="glyphicon glyphicon-backward"></i> Prev</a></li>
-            <li><a id="next">Next <i class="glyphicon glyphicon-forward"></i></a></li>
-            <li><a href="/">Newest <i class="glyphicon glyphicon-fast-forward"></i></a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav>
-    <script>
-    var pagenum = window.location.pathname.match(/\/([^\/])\/?$/)[1];
-    console.log(pagenum);
-    document.getElementById('prev').href = "/game/" + (+pagenum - 1);
-    document.getElementById('next').href = "/game/" + (+pagenum + 1);
-    </script>
-    {{ if .Prev }}
-              <a class="previous" href="{{.Prev.Permalink}}">PREV: {{.Prev.Title}}</a>
-            {{ end }}
-            {{ if .NextInSection }}
-              <a class="next" href="{{.Next.Permalink}}">NEXT: {{.NextInSection.Title}}</a>
-            {{ end }}
-    <h1>
-      {{ .Title }}
-    </h1>
-    <p class="header"><span>Unity WebGL Player | </span>{{ .Title }}</p>
+    {{ partial "header.html" . }}
+
+    <table class="title-navigation">
+      <tr>
+        <td class="title-prev">
+          {{ if .PrevInSection }}
+            <a href="{{ .PrevInSection.RelPermalink }}">
+              <i class="glyphicon glyphicon-backward"></i>
+              {{ .PrevInSection.LinkTitle }}
+            </a>
+          {{ else }} {{ end }}
+        </td>
+        <td class="title">
+          <a href="{{ .Permalink }}">{{ .Title }} <sup><i class="glyphicon glyphicon-link"></i></sup></a>
+        </td>
+        <td class="title-next">
+          {{ if .NextInSection }}
+          <a href="{{ .NextInSection.RelPermalink }}">
+            {{ .NextInSection.LinkTitle }}
+            <i class="glyphicon glyphicon-forward"></i>
+          </a>
+          {{ else }} {{ end }}
+        </td>
+      </tr>
+    </table>
+
+    <p class="header"><span>Unity WebGL Player | </span></p>
     <div class="full-width-wrapper">
       <div class="template-wrap clear" style="width: 960px;">
         <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
@@ -53,18 +46,22 @@
       </div>
     </div>
     <hr>
+
+
     <div class="fancy-description">
       {{ .Content }}
     </div>
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+
+{{ partial "footer.html" . }}
+
 <script type='text/javascript'>
   var Module = {
     TOTAL_MEMORY: 268435456,
     errorhandler: null,			// arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
     compatibilitycheck: null,
-    dataUrl: "Release/Unity HTML5.data",
-    codeUrl: "Release/Unity HTML5.js",
-    memUrl: "Release/Unity HTML5.mem",
+    dataUrl: "Release/{{ .Params.gamefile }}.data",
+    codeUrl: "Release/{{ .Params.gamefile }}.js",
+    memUrl: "Release/{{ .Params.gamefile }}.mem",
   };
 </script>
 <script src="Release/UnityLoader.js"></script>

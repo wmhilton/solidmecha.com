@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    {{ range .Site.Pages.GroupBy "Section" }}
+      {{ if eq .Key "game" }}
+            {{ range first 1 .Pages }}
+            <meta http-equiv="refresh" content="0; url={{ .Permalink }}">
+            {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ partial "head.html" . }}
+  </head>
+  <body></body>
+</html>

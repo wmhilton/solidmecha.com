@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>{{ .Title }}</title>
+    <link rel="shortcut icon" href="/css/favicon.ico" />
+    {{ partial "head.html" . }}
+  </head>
+  <body class="template">
+
+    {{ partial "header.html" . }}
+
+    <main class="content" role="main">
+    	<div class="container">
+    	{{ range .Paginator.Pages }}
+    		{{ .Render "li" }}
+    	{{ end }}
+    	{{ partial "pagination.html" . }}
+    	</div>
+    </main>
+
+  </body>
+</html>
