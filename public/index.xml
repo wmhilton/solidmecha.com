@@ -1,31 +1,72 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>New Unity Prototype</title>
+    <title>Solidmecha Games</title>
     <link>http://solidmecha.com/</link>
-    <description>Recent content on New Unity Prototype</description>
+    <description>Recent content on Solidmecha Games</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 29 Feb 2016 22:21:05 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 03 Mar 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://solidmecha.com/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>NUP</title>
-      <link>http://solidmecha.com/game/0/</link>
-      <pubDate>Mon, 29 Feb 2016 22:21:05 -0500</pubDate>
+      <title>Paint By Numbers</title>
+      <link>http://solidmecha.com/game/PaintByNumbers/</link>
+      <pubDate>Thu, 03 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://solidmecha.com/game/0/</guid>
-      <description>&lt;p&gt;Here be my &lt;strong&gt;description&lt;/strong&gt; of the game, and or funny remarks, and or appologies for quirky unfinished things.&lt;/p&gt;
+      <guid>http://solidmecha.com/game/PaintByNumbers/</guid>
+      <description>&lt;p&gt;Each tile has a correct color. In standard mode, the colors of adjacent tiles are revealed in the venn diagram. In maniacal mode the colors of the surrounding tiles may be mixed or separated randomly within the diagrams.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>main</title>
-      <link>http://solidmecha.com/post/main/</link>
-      <pubDate>Mon, 29 Feb 2016 21:06:26 -0500</pubDate>
+      <title>Lantern</title>
+      <link>http://solidmecha.com/game/Lantern/</link>
+      <pubDate>Wed, 02 Mar 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://solidmecha.com/post/main/</guid>
-      <description>&lt;p&gt;Waoze iw ot hutgi vivitulop reccogdig loga nugascip ra datu kolamored wacjojiv usemujeb utfus puocoda gajtavgo. Mi lubitgi wuteneh cuve henpahzo wujagcu voojanup gov gonpaz gah cu cisi gulham hedewku isi. Naw bojud wefge ferahji vudigrac wo sih jiwep pobgutud roheha boju poepta eguumivig kugmov. Wopop kusig sibzutaw minkap bi giwhapuz wupde lahsozuwe ku os bi de ide nepun.&lt;/p&gt;
+      <guid>http://solidmecha.com/game/Lantern/</guid>
+      <description>&lt;p&gt;Bring light to the darkness. Watch your health, willpower, and stamina. The signs give your chances of what might happen if you continue in that direction.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>DynaMem</title>
+      <link>http://solidmecha.com/game/DynaMem/</link>
+      <pubDate>Tue, 01 Mar 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://solidmecha.com/game/DynaMem/</guid>
+      <description>&lt;p&gt;Reveal the numbers 1 to 9. Selecting a number out of order will shift the entire row to the right, the whole column down, or both depending on the symbol of the block. No counter on this one. Take your time.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>NUP</title>
+      <link>http://solidmecha.com/game/NUP/</link>
+      <pubDate>Mon, 29 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://solidmecha.com/game/NUP/</guid>
+      <description>&lt;p&gt;The Star needs to get to the red square! Pieces travel orthogonally until they hit a wall or another piece.
+Click on a piece to select, then click on a circle to move.
+Rarely the level generated will be not solvable you can always hit Shuffle or New Level.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://solidmecha.com/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://solidmecha.com/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://solidmecha.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://solidmecha.com/about/</guid>
+      <description>&lt;p&gt;Thanks to Will and Joe! without you guys this site and these games wouldn&amp;rsquo;t be possible.&lt;/p&gt;
 </description>
     </item>
     

@@ -3,18 +3,36 @@
   
   <url>
     <loc>http://solidmecha.com/</loc>
-    <lastmod>2016-02-29T22:21:05-05:00</lastmod>
+    <lastmod>2016-03-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://solidmecha.com/game/0/</loc>
-    <lastmod>2016-02-29T22:21:05-05:00</lastmod>
+    <loc>http://solidmecha.com/game/PaintByNumbers/</loc>
+    <lastmod>2016-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://solidmecha.com/post/main/</loc>
-    <lastmod>2016-02-29T21:06:26-05:00</lastmod>
+    <loc>http://solidmecha.com/game/Lantern/</loc>
+    <lastmod>2016-03-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://solidmecha.com/game/DynaMem/</loc>
+    <lastmod>2016-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://solidmecha.com/game/NUP/</loc>
+    <lastmod>2016-02-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://solidmecha.com/</loc>
+  </url>
+  
+  <url>
+    <loc>http://solidmecha.com/about/</loc>
   </url>
   
 </urlset>

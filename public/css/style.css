@@ -28,7 +28,95 @@ body.template { }
 .template .template-wrap { }
 .template .template-wrap canvas { }
 
+.header {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.header hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.solidmecha-logo {
+  font-size: 20pt;
+}
+
+.header-greeting {
+  font-size: 16px;
+  font-style: italic;
+  padding-top: 20px;
+}
+.header .share-icons {
+  font-size: 8pt;
+}
+.share-icons a:hover {
+  text-decoration: none;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  font-size: 150%;
+  font-variant: small-caps;
+}
+.header a:hover {
+  color: black;
+}
+
 .fancy-description {
   text-align: center;
-  font-family: serif;
+  font-family: Helvetica, Arial;
+  font-size: 14pt;
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title-navigation {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.title-navigation a {
+  color: black;
+}
+.title-navigation a {
+  text-decoration: none;
+}
+.title-navigation a:hover {
+  color: black;
+}
+
+.title-navigation td {
+  font-size: 16pt;
+  width: 20%;
+}
+
+.title-prev {
+  text-align: left;
+}
+td.title {
+  text-align: center;
+  font-size: 20pt;
+}
+td.title a i.glyphicon {
+  visibility: collapse;
+}
+td.title a:hover i.glyphicon {
+  visibility: visible;;
+}
+
+.title-next {
+  text-align: right;
+}
+
+h1.page-title {
+  text-align: center;
+}
+
+.footer {
+  text-align: center;
+  font-size: 14pt;
 }
