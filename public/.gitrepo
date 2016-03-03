@@ -1,0 +1,11 @@
+; DO NOT EDIT (unless you know what you are doing)
+;
+; This subdirectory is a git "subrepo", and this file is maintained by the
+; git-subrepo command. See https://github.com/git-commands/git-subrepo#readme
+;
+[subrepo]
+	remote = https://github.com/wmhilton/solidmecha.com
+	branch = gh-pages
+	commit = b3c6f9264e78d93107417c711e7a4d144a13dd8e
+	parent = e7e220ade17c79dba219cdfcbb7247a1b643460e
+	cmdver = 0.3.0
