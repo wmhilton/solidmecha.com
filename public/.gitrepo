@@ -6,6 +6,6 @@
 [subrepo]
 	remote = https://github.com/wmhilton/solidmecha.com
 	branch = gh-pages
-	commit = b3c6f9264e78d93107417c711e7a4d144a13dd8e
-	parent = e7e220ade17c79dba219cdfcbb7247a1b643460e
+	commit = b6bcb2b7fbed7b2189da70fd3a733a350e6a0fb6
+	parent = b194f3dd90bba45b02b942c961feacde398c870b
 	cmdver = 0.3.0
