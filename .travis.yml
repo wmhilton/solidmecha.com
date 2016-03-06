@@ -1,0 +1,16 @@
+# This program was made possible by
+# Copy & Paste, Inc. Special thanks to
+# tonight's contributors:
+# domenic https://gist.github.com/domenic/ec8b0fc8ab45f39403dd
+# evanbrown: http://evanbrown.io/post/hugo-on-the-go/
+#
+env:
+  global: 
+  - GH_REF: github.com/wmhilton/solidmecha.com.git 
+  - secure: "<.... encrypted data from above ....>"
+language: go
+go: 
+- 1.4 
+install: 
+- go get github.com/spf13/hugo 
+script: bash ./deploy.sh
