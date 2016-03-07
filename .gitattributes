@@ -1,3 +1,0 @@
-*.jsgz filter=lfs diff=lfs merge=lfs -text
-*.memgz filter=lfs diff=lfs merge=lfs -text
-*.datagz filter=lfs diff=lfs merge=lfs -text
