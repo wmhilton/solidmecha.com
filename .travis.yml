@@ -5,7 +5,8 @@ language: go
 go:
 - 1.4
 before_install:
-- openssl aes-256-cbc -K $encrypted_1890b4ae272a_key -iv $encrypted_1890b4ae272a_iv -in deploy_key.enc -out deploy_key -d
+- openssl aes-256-cbc -K $encrypted_1890b4ae272a_key -iv $encrypted_1890b4ae272a_iv
+  -in deploy_key.enc -out deploy_key -d
 install:
 - go get github.com/spf13/hugo
 script: hugo
