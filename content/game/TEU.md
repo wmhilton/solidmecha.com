@@ -1,8 +1,8 @@
 +++
-date = "2016-03-07"
-title = "Orbital"
+date = "2016-03-10"
+title = "The Ethereal Unknown"
 type = "game"
-gamefile = "Orbital"
+gamefile = "TEU"
 +++
 
-Working as intended.
+Brave the depths and survive. It may take a few trys.
