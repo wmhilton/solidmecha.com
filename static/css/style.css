@@ -28,6 +28,11 @@ body.template { }
 .template .template-wrap { }
 .template .template-wrap canvas { }
 
+/* Fix some of the chaos created by main.css */
+img[height='18'] {
+  height: 18px;
+}
+
 .header {
   width: 960px;
   margin-left: auto;
@@ -119,4 +124,17 @@ h1.page-title {
 .footer {
   text-align: center;
   font-size: 14pt;
+}
+
+#loader-thing {
+  position:absolute;
+  width: 960px;
+  height: 600px;
+  background-color: #EEE;
+  font-style: italic;
+  z-index: 2;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 200px;
+  transition: opacity 2s;
 }

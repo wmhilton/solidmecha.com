@@ -4,9 +4,11 @@
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | {{ .Title }}</title>
-    <link rel="shortcut icon" href="/css/favicon.ico" />
-    <script src="/css/UnityProgress.js"></script>
+    <link rel="shortcut icon" href="/css/favicon.ico">
+    <script src="/js/UnityProgress.js"></script>
     {{ partial "head.html" . }}
+    <script src="/js/pace.min.js"></script>
+    <link rel="stylesheet" href="/css/pace.css">
   </head>
   <body class="template">
     {{ partial "header.html" . }}
@@ -38,6 +40,9 @@
     <p class="header"><span>Unity WebGL Player | </span></p>
     <div class="full-width-wrapper">
       <div class="template-wrap clear" style="width: 960px;">
+        <div id="loader-thing">
+          {{ .Params.quote }}
+        </div>
         <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
         <br>
         <div class="logo"></div>
