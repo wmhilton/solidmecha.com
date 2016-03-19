@@ -69,6 +69,36 @@ img[height='18'] {
   color: black;
 }
 
+@keyframes fadeloader {
+  0% {opacity: 1;}
+  100% {opacity: 0; visibility: hidden;}
+}
+
+#loader-thing {
+  position:absolute;
+  width: 960px;
+  height: 600px;
+  background-color: #EEE;
+  font-style: italic;
+  z-index: 2;
+  font-size: 24pt;
+  text-align: center;
+  padding-top: 200px;
+  transition: 2s;
+  animation-fill-mode: forwards;
+}
+.showing-game #loader-thing {
+  animation-name: fadeloader;
+  animation-duration: 2s;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+
+.gameicon {
+  float: left;
+  margin-right: 3em;
+}
+
 .fancy-description {
   text-align: center;
   font-family: Helvetica, Arial;
@@ -76,6 +106,16 @@ img[height='18'] {
   width: 960px;
   margin-left: auto;
   margin-right: auto;
+
+  /* Experimental fancy sliding text */
+  position: relative;
+  top: -500px;
+  transition: 1s;
+  z-index: 2;
+}
+
+.showing-game .fancy-description {
+  top: 0px;
 }
 
 .title-navigation {
@@ -124,17 +164,4 @@ h1.page-title {
 .footer {
   text-align: center;
   font-size: 14pt;
-}
-
-#loader-thing {
-  position:absolute;
-  width: 960px;
-  height: 600px;
-  background-color: #EEE;
-  font-style: italic;
-  z-index: 2;
-  font-size: 24pt;
-  text-align: center;
-  padding-top: 200px;
-  transition: opacity 2s;
 }

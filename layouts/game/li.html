@@ -1,0 +1,24 @@
+<article class="li {{ .Type }}">
+    <a href="{{ .Permalink }}"><img class="gameicon" src="/game/{{ .Params.gamefile }}/icon.png"></a>
+
+    <header class="post-header">
+        <h3 class="post-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h3>
+    </header>
+
+    <section class="post-excerpt">
+        <p>{{ .Summary }}</p>
+        <div class="clearfix"></div>
+    </section>
+
+    <footer class="post-footer">
+        <span>
+            {{ if .Site.Params.disqusShortname }}
+            <a href="{{ .Permalink }}#comments"><i class="fa fa-comment"></i> Comments</a>
+            {{ end }}
+            {{ with.Params.tags }}
+            	&nbsp;&nbsp;<i class="fa fa-tag"></i>
+            	{{ delimit  . ", " }}
+            {{ end }}
+        </span>
+    </footer>
+</article>
