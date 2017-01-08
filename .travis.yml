@@ -8,6 +8,7 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_f80b1531dee6_key -iv $encrypted_f80b1531dee6_iv
   -in deploy_key.enc -out deploy_key -d
 install:
-- go get github.com/spf13/hugo
-script: hugo
+- tar -xf hugo_0.15_linux_amd64.tar.gz
+- chmod +x hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
+script: hugo_0.15_linux_amd64/hugo_0.15_linux_amd64
 after_success: bash ./deploy.sh
