@@ -1,5 +1,5 @@
 +++
-date = "2017-02-14"
+date = "2017-02-04"
 title = "Castle Calc"
 type = "game"
 gamefile = "CastleCalc"
