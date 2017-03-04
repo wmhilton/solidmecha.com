@@ -1,0 +1,8 @@
++++
+date = "2017-03-04"
+title = "Abacus"
+type = "game"
+gamefile = "Abacus"
++++
+
+Slide the tiles to the pegs using the arrow keys. 
