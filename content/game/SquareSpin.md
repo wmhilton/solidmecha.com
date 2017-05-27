@@ -5,4 +5,4 @@ type = "game"
 gamefile = "SquareSpin"
 +++
 
-Spin the squares! Touching a gray block will pick it up. Move with WASD or Arrows Keys. Rotate Counterclockwise with Q or Z, or clockwise with E or X. Click on a solid block to change the point of rotation or cycle through them with shift or tab.
+Spin the squares! Touching a gray block will pick it up. Move with WASD or Arrows Keys. Rotate Counterclockwise with Q or Z, or clockwise with E or X. Click on a solid block to change the point of rotation or cycle through them with shift or tab. Restart with R.
