@@ -1,6 +1,6 @@
 +++
 date = "2017-10-03"
-title = "ilcetaon"
+title = "ilcetoan"
 type = "game"
 gamefile = "ilcetoan"
 +++
