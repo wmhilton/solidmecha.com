@@ -1,5 +1,5 @@
 +++
-date = "2019-05-31"
+date = "2020-01-13"
 title = "Signal Signs"
 type = "game"
 gamefile = "signalsigns"
